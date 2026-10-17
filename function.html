@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<body>
+   <form method="post">
+
+    enter numbr1: <br>
+ <input type="number" id="numbr1" required><br>
+ enter numbr2: <br>
+ <input type="number" id="numbr2" required><br>
+ <button onclick="sum()">ADD</button>
+   </form>
+
+   <script>
+
+    let num1 = document.getElementById("numbr1");
+    let num2 = document.getElementById("numbr2");
+
+    function sum(){
+        document.write(parseInt(num1.value) +parseInt(num2.value));
+    }
+   </script>
+</body>
